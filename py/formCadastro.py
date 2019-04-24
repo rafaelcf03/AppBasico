@@ -3,7 +3,7 @@ from py.dbconnect import *
 from bson.json_util import dumps
 
 
-dbcollectionCadastro = "messages"
+dbcollectionCadastro = "user_forms"
 
 def listCadastro():	
 	dbcollection = dbConnection(dbcollectionCadastro)
